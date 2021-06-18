@@ -47,7 +47,7 @@ function commands(message) {
                 break;
 
             case "~h":
-                message.member.send("Currently 2 commands are available:\n~h = Directly messages the user a help message.\n~txt (number) = Messages corresponding server a message.");
+                message.member.send("Currently 2 commands are available:\n\n\n~h = Directly messages the user a help message.\n\n~txt (number) = Messages corresponding server a message.");
                 break;
 
             default:
